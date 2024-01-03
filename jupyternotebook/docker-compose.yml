@@ -3,7 +3,7 @@ services:
   dev_jupyter:
     build: .
     volumes:
-      - ./data/:/docker_jupyter
+      - ./data2/:/docker_jupyter
     ports:
       - 8888:8888
     container_name: dev_jupyter-notebook

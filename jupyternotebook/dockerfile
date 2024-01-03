@@ -1,11 +1,13 @@
-FROM python:3.8-slim
+#FROM python:3.8-slim
+FROM jupyter/scipy-notebook:latest
 
 WORKDIR /docker_jupyter
 
-RUN pip install numpy && \
-    pip install pandas && \
-    pip install scipy && \
-    pip install jupyter
+#RUN pip install numpy && \
+#    pip install pandas && \
+#    pip install jupyter
+
+#RUN pip install scipy
 
 EXPOSE 8888
 

@@ -13,7 +13,8 @@ RUN pip install -q imageio && \
     pip install -q opencv-python && \
     pip install tensorflow && \
     pip install tensorflow-hub && \
-    pip install tensorflow-docs
+    pip install tensorflow-docs && \
+    pip install moviepy
 
 EXPOSE 8888
 

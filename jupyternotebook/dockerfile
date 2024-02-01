@@ -14,7 +14,8 @@ RUN pip install -q imageio && \
     pip install tensorflow && \
     pip install tensorflow-hub && \
     pip install tensorflow-docs && \
-    pip install moviepy
+    pip install moviepy && \
+    pip install -U memory_profiler
 
 EXPOSE 8888
 

@@ -2,4 +2,7 @@
 **/images
 **/tmp
 **/*.npy
+**/*.mp4
+**/*.jpg
+**/*.jpeg
 .gitignore
